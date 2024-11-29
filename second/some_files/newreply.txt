@@ -1,0 +1,3 @@
+Nice to meet you, One and Two.
+
+Nice to see append can create a new file if there is no file.
