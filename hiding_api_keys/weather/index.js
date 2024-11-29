@@ -1,9 +1,9 @@
-const express = require("express");
-const router = express.Router();
-const fetch = require("node-fetch");
+import express from "express"
+import fetch from "node-fetch"
 
+const router = express.Router();
 
 router.get("/", (req,res) => res.json({success: "Weather is good.", failure: "Weather is bad."
 }));
 
-module.exports = router;
+ export default router 
